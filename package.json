@@ -1,0 +1,23 @@
+{
+  "name": "customcontrols",
+  "version": "0.1.0",
+  "description": "refactor with sass",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spaetsch/customcontrols.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spaetsch/customcontrols/issues"
+  },
+  "homepage": "https://github.com/spaetsch/customcontrols",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.0.3"
+  }
+}

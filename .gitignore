@@ -40,3 +40,5 @@ Thumbs.db
 ####################
 sftp-config*
 *.sublime-*
+
+node_modules
