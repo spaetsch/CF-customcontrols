@@ -1,13 +1,17 @@
 button {
   border-top: 1px solid #afb6ba;
-  background: #154024;
+  background: #157985;
   padding: 1em;
   border-radius: 2em;
   color: white;
-  font-size: 14px;
+  font-size: 1em;
   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
   text-decoration: none;
   vertical-align: middle; }
+  button:hover {
+    background-color: #3acee0; }
+  button:active {
+    background-color: #155485; }
 
 video {
   width: 50%; }

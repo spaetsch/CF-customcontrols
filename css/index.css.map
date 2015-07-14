@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAA,MAAM;EACJ,UAAU,EAAE,iBAAiB;EAC7B,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,6CAAe;EAC5B,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,MAAM;;ACTxB,KAAK;EACH,KAAK,EAAE,GAAG",
-"sources": ["../Sass/partials/_buttons.sass","../Sass/modules/_video.sass"],
+"mappings": "AAAA,MAAM;EACJ,UAAU,EAAE,iBAA6B;EACzC,UAAU,ECFG,OAAO;EDGpB,OAAO,EAAE,GAAG;EACZ,aAAa,EAAE,GAAG;EAClB,KAAK,EAAE,KAAK;EACZ,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,6CAAe;EAC5B,eAAe,EAAE,IAAI;EACrB,cAAc,EAAE,MAAM;;AETxB,KAAK;EACH,KAAK,EAAE,GAAG",
+"sources": ["../Sass/partials/_buttons.sass","../Sass/partials/_color.sass","../Sass/modules/_video.sass"],
 "names": [],
 "file": "index.css"
 }
