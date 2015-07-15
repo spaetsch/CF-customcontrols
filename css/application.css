@@ -1,8 +1,12 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
 body {
   background-color: #E2F0D6;
-  color: black; }
-
-main {
+  color: black;
   width: 75%;
   margin: auto; }
 
@@ -14,14 +18,26 @@ a {
   a:hover {
     color: white; }
 
+header {
+  background-color: gray; }
+
+footer {
+  background-color: gray; }
+
+nav {
+  background-color: yellow; }
+
+.info-box {
+  background-color: yellow; }
+
 button, .video-btn {
+  padding: 0.75em;
   border-top: 1px solid;
-  font-size: 1em;
-  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  border-radius: 2em;
+  font-size: 0.75em;
+  font-family: "Lucida Grande", Helvetica, Arial, Sans-Serif;
   text-decoration: none;
-  vertical-align: middle;
-  padding: 1em;
-  border-radius: 2em; }
+  vertical-align: middle; }
 
 .video-btn {
   border-top: #afb6ba;
@@ -47,3 +63,5 @@ input[type="range"]::-webkit-slider-thumb {
   opacity: 0.7;
   width: 1em;
   height: 2em; }
+
+/*# sourceMappingURL=application.css.map */
