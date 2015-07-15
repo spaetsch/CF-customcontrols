@@ -16,11 +16,11 @@ a {
   text-decoration: none;
   color: #4A86D4; }
   a:visited {
-    color: #5b88c3; }
+    color: #5587c9; }
   a:hover {
     color: #b1cbec; }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Bitter', Serif; }
 
 body {
@@ -61,15 +61,19 @@ button, .video-btn {
 video {
   width: 100%; }
 
-input[type="range"] {
-  -webkit-appearance: none;
-  background-color: silver;
+.slider-track, input[type="range"] {
   width: 20em;
   height: 1em; }
 
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  background-color: blue;
-  opacity: 0.7;
+.slider, input[type="range"]::-webkit-slider-thumb {
   width: 1em;
   height: 2em; }
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background-color: gray; }
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background-color: #1D3554;
+  opacity: 0.7; }
