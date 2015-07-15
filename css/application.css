@@ -5,7 +5,7 @@ button {
   border-radius: 2em;
   color: white;
   font-size: 1em;
-  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+  font-family: "Lucida Grande", Helvetica, Arial, Sans-Serif;
   text-decoration: none;
   vertical-align: middle; }
   button:hover {
@@ -13,7 +13,7 @@ button {
   button:active {
     background-color: #155485; }
 
-input[type=range] {
+input[type="range"] {
   -webkit-appearance: none;
   background-color: silver;
   width: 20em;
@@ -28,3 +28,5 @@ input[type="range"]::-webkit-slider-thumb {
 
 video {
   width: 50%; }
+
+/*# sourceMappingURL=application.css.map */
