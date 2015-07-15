@@ -31,16 +31,53 @@ button, .video-btn {
   font-family: 'Oxygen', Helvetica, Arial, Sans-Serif; }
 
 header {
-  background-color: #4A86D4; }
+  background-color: #4A86D4;
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative; }
+  header::after {
+    clear: both;
+    content: "";
+    display: table; }
 
-footer {
-  background-color: #4A86D4; }
+.header--logo {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+  background-color: red; }
+  .header--logo:last-child {
+    margin-right: 0; }
+
+.header--title {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  background-color: green; }
+  .header--title:last-child {
+    margin-right: 0; }
 
 nav {
-  background-color: #3866A1; }
+  background-color: #3866A1;
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  vertical-align: bottom;
+  font-size: 1.5em;
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+  nav:last-child {
+    margin-right: 0; }
 
 .info-box {
   background-color: #3866A1; }
+
+footer {
+  background-color: #4A86D4; }
 
 button, .video-btn {
   padding: 0.75em;

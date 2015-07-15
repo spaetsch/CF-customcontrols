@@ -1,11 +1,32 @@
 header
   background-color: #4A86D4
+  @include outer-container
+  position: relative
+
+.header--logo
+  @include span-columns(2)
+  background-color: red
+
+.header--title
+  @include span-columns(9)
+  background-color: green
+
+nav
+  background-color: #3866A1
+  @include span-columns(10)
+  vertical-align: bottom
+  font-size: 1.5em
+  position: absolute
+  bottom: 0
+  right: 0
+
+.info-box
+  background-color: #3866A1
 
 footer
   background-color: #4A86D4
 
-nav
-  background-color: #3866A1
 
-.info-box
-  background-color: #3866A1
+
+
+
