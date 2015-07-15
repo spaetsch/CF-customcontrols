@@ -1,6 +1,11 @@
+// header and nav
+
 header
   @include outer-container
   background-color: $header-color
+
+header h1
+  font-size: 2em
 
 .header__flex-container
   display: flex
@@ -28,23 +33,37 @@ nav a
   margin: 0 .25em
   background-color: $navbtn-color
 
+// video
+
 .video__title
+  font-size: 1.5em
   padding-left: 0.5em
   padding-top: 1.5em
   margin-bottom: 0
 
-///
+.video__container
+  padding: 1em
+  background-color: white // testing
 
 #video-controls
-  background-color: blue
+  background-color: #3866A1 //testing
+  margin-bottom: 2px
 
 .info-box
-  background-color: #3866A1
+  background-color: #4A86D4
   padding: 1em
 
+// footer
+
 footer
+  @include outer-container
+  padding: 1em
   margin-top: 1em
-  background-color: #4A86D4
+  background-color: #3866A1
+  margin-bottom: 3em
+
+.footer__column
+  @include span-columns(4)
 
 
 

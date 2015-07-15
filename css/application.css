@@ -86,6 +86,9 @@ header {
     content: "";
     display: table; }
 
+header h1 {
+  font-size: 2em; }
+
 .header__flex-container {
   display: flex;
   flex-direction: row;
@@ -128,20 +131,43 @@ nav a {
   background-color: #1D3554; }
 
 .video__title {
+  font-size: 1.5em;
   padding-left: 0.5em;
   padding-top: 1.5em;
   margin-bottom: 0; }
 
+.video__container {
+  padding: 1em;
+  background-color: white; }
+
 #video-controls {
-  background-color: blue; }
+  background-color: #3866A1;
+  margin-bottom: 2px; }
 
 .info-box {
-  background-color: #3866A1;
+  background-color: #4A86D4;
   padding: 1em; }
 
 footer {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
   margin-top: 1em;
-  background-color: #4A86D4; }
+  background-color: #3866A1;
+  margin-bottom: 3em; }
+  footer::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.footer__column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .footer__column:last-child {
+    margin-right: 0; }
 
 button, .video-btn {
   padding: 0.75em;
