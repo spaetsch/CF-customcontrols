@@ -1,13 +1,10 @@
-button
-  border-top: 1px solid $button-bordercolor
+@import "buttons/index"
+
+.video-btn
+  @extend button
+  border-top: $button-bordercolor
   background: $button-color
-  padding: 1em
-  border-radius: 2em
   color: $button-textcolor
-  font-size: 1em
-  font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif
-  text-decoration: none
-  vertical-align: middle
   &:hover
     background-color: lighten($button-color, 25%)
   &:active
