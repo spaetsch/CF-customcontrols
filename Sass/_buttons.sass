@@ -1,0 +1,13 @@
+@import "buttons/index"
+
+.video-btn
+  @extend button
+  border-top: $button-bordercolor
+  background: $button-color
+  color: $button-textcolor
+  &:hover
+    background-color: lighten($button-color, 25%)
+  &:active
+    background-color: adjust-hue($button-color, 20)
+
+
