@@ -1,32 +1,34 @@
-.flex-container
-    display:flex
-    flex-direction: row
-    flex-wrap: nowrap
-    justify-content: center
-    align-content: space-between
-    align-items: center
-
-
 header
   @include outer-container
-  background-color: #4A86D4
+  background-color: $header-color
 
-.header--logo
+.header__flex-container
+  display:flex
+  flex-direction: row
+  flex-wrap: nowrap
+  justify-content: center
+  align-content: space-between
+  align-items: center
+
+.header__logo
   @include span-columns(2)
 
-.header--title
+.header__title
   @include span-columns(9)
+  font-size: 1.5em
   padding: 0 1.5em
 
 nav
   @include span-columns(12)
-  background-color: #3866A1
-  vertical-align: bottom
-  font-size: 1.5em
-  padding-left: 1em
+  background-color: $nav-color
+  font-size: 1.25em
 
 nav a
-  padding: 0 .5em
+  padding: .25em .75em
+  margin: 0 .25em
+  background-color: $navbtn-color
+
+///
 
 .info-box
   background-color: #3866A1

@@ -30,14 +30,6 @@ button, .video-btn {
   font-size: 0.8em;
   font-family: 'Oxygen', Helvetica, Arial, Sans-Serif; }
 
-.flex-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-content: space-between;
-  align-items: center; }
-
 header {
   max-width: 68em;
   margin-left: auto;
@@ -48,21 +40,30 @@ header {
     content: "";
     display: table; }
 
-.header--logo {
+.header__flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: space-between;
+  align-items: center; }
+
+.header__logo {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 14.70196%; }
-  .header--logo:last-child {
+  .header__logo:last-child {
     margin-right: 0; }
 
-.header--title {
+.header__title {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 74.41059%;
+  font-size: 1.5em;
   padding: 0 1.5em; }
-  .header--title:last-child {
+  .header__title:last-child {
     margin-right: 0; }
 
 nav {
@@ -71,14 +72,14 @@ nav {
   margin-right: 2.35765%;
   width: 100%;
   background-color: #3866A1;
-  vertical-align: bottom;
-  font-size: 1.5em;
-  padding-left: 1em; }
+  font-size: 1.25em; }
   nav:last-child {
     margin-right: 0; }
 
 nav a {
-  padding: 0 0.5em; }
+  padding: 0.25em 0.75em;
+  margin: 0 0.25em;
+  background-color: #1D3554; }
 
 .info-box {
   background-color: #3866A1; }
