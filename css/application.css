@@ -7,37 +7,40 @@ html {
   box-sizing: inherit; }
 
 body {
-  background-color: #E2F0D6;
+  background-color: #8CAFDB;
   color: black;
   width: 75%;
   margin: auto; }
 
 a {
   text-decoration: none;
-  color: green; }
+  color: #4A86D4; }
   a:visited {
-    color: #1F4254; }
+    color: #5b88c3; }
   a:hover {
-    color: white; }
+    color: #b1cbec; }
 
 h1 {
   font-family: 'Bitter', Serif; }
 
+body {
+  font-family: 'Oxygen', Helvetica, Arial, Sans-Serif; }
+
 button, .video-btn {
-  font-size: 0.75em;
+  font-size: 0.8em;
   font-family: 'Oxygen', Helvetica, Arial, Sans-Serif; }
 
 header {
-  background-color: gray; }
+  background-color: #4A86D4; }
 
 footer {
-  background-color: gray; }
+  background-color: #4A86D4; }
 
 nav {
-  background-color: yellow; }
+  background-color: #3866A1; }
 
 .info-box {
-  background-color: yellow; }
+  background-color: #3866A1; }
 
 button, .video-btn {
   padding: 0.75em;
@@ -47,13 +50,13 @@ button, .video-btn {
   vertical-align: middle; }
 
 .video-btn {
-  border-top: #afb6ba;
-  background: #157985;
+  border-top: gray;
+  background: #1D3554;
   color: white; }
   .video-btn:hover {
-    background-color: #3acee0; }
+    background-color: #3e71b3; }
   .video-btn:active {
-    background-color: #155485; }
+    background-color: #1d2354; }
 
 video {
   width: 100%; }
