@@ -15,10 +15,10 @@ header h1
   align-items: center
 
 .nav__flex-container
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-content: flex-start;
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-content: flex-start
   align-items: stretch
 
 .header__logo
@@ -47,6 +47,20 @@ nav
   a:last-child
     margin-right: 0
 
+//
+main
+  @include outer-container
+
+.sidebar
+  @include span-columns(3)
+  background-color: $sidebar-color
+
+.sidebox
+  background-color: $sidebox-color
+  margin: .25em
+  padding: 1em
+  line-height: 1.5em
+
 // video
 
 .video__title
@@ -55,6 +69,7 @@ nav
   margin-bottom: .25em
 
 .video__container
+  @include span-columns(9)
   padding: 1em
   background-color: white
 
@@ -65,6 +80,7 @@ nav
 .info-box
   background-color: #4A86D4
   padding: 1em
+  line-height: 1.25em
 
 // footer
 
