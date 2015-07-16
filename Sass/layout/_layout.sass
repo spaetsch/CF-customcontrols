@@ -1,0 +1,34 @@
+.myheader
+  margin: .5em 0
+
+.mytitle
+  @media screen and (min-width: $small-breakpoint)
+    font-size: 3em
+  @media screen and (min-width: $medium-breakpoint)
+    font-size: 5em
+  padding: 0 1.5em
+
+.mynav
+  @media screen and (max-width: $small-breakpoint)
+    font-size: .75em
+  @media screen and (min-width: $medium-breakpoint)
+    font-size: 1.25em
+  a
+    padding: .25em .75em
+    margin-right: .25em
+    background-color: $navbtn-color
+    flex-grow: 1
+  a:last-child
+    margin-right: 0
+
+
+
+.mysidebox
+  margin: .25em
+  padding: 1em
+  line-height: 1.5em
+
+.myfooter
+  padding: 1em
+  margin-top: 1em
+  margin-bottom: 3em
