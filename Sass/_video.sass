@@ -1,5 +1,18 @@
 @import "video/index"
 
+.main__video-container
+  @include span-columns(9)
+  @extend .video__container
+  background-color: white
+
+#video-controls
+  @extend .video-controls
+  background-color: #3866A1
+
+.main__info-box
+  @extend .video__info
+  background-color: #4A86D4
+
 input[type="range"]
   -webkit-appearance: none
   @extend .slider-track
