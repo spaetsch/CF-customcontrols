@@ -32,6 +32,11 @@ input[type="range"]::-webkit-slider-thumb
   @include outer-container
 
 .play-controls, .vol-controls, .screen-controls
-  @include span-columns(4)
+  @include media($mobile)
+    @include span-columns(12)
+  @include media($tablet)
+    @include span-columns(4)
+
+
 
 
