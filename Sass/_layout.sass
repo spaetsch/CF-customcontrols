@@ -10,7 +10,6 @@ header
   display: flex
   flex-direction: row
   justify-content: center
-  align-content: space-between
   align-items: center
 
 .nav__flex-container
@@ -36,8 +35,12 @@ main
   @include outer-container
 
 .sidebar
-  @include span-columns(3)
+  @include media($mobile)
+    @include span-columns(12)
+  @include media($desktop)
+    @include span-columns(3)
   background-color: $sidebar-color
+  box-shadow: 0 0 5px black
 
 .sidebox
   @extend .mysidebox

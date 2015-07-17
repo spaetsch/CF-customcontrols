@@ -1,9 +1,13 @@
 @import "video/index"
 
 .main__video-container
-  @include span-columns(9)
+  @include media($mobile)
+    @include span-columns(12)
+  @include media($desktop)
+    @include span-columns(9)
   @extend .video__container
-  background-color: white
+  background-color: $video-containercolor
+  box-shadow: 0 0 5px black
 
 #video-controls
   @extend .video-controls
