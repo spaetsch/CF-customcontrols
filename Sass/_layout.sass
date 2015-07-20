@@ -1,0 +1,63 @@
+@import "layout/index"
+
+// header and nav
+header
+  @include outer-container
+  @extend .myheader
+  background-color: $header-color
+
+.header__flex-container
+  display: flex
+  flex-direction: row
+  justify-content: center
+  align-items: center
+
+.nav__flex-container
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  align-content: flex-start
+
+.header__logo
+  @include span-columns(2)
+
+.header__title
+  @include span-columns(10)
+  @extend .mytitle
+
+nav
+  @include span-columns(12)
+  @extend .mynav
+  background-color: $nav-color
+
+// main layout
+main
+  @include outer-container
+
+.sidebar
+  @include media($mobile)
+    @include span-columns(12)
+    margin-top: .5em
+  @include media($tablet)
+    @include span-columns(3)
+    margin-top: 0
+  background-color: $sidebar-color
+  box-shadow: 0 0 5px black
+
+.sidebox
+  @extend .mysidebox
+  background-color: $sidebox-color
+
+// footer
+footer
+  @include outer-container
+  @extend .myfooter
+  background-color: $footer-color
+
+.footer__column
+  @include span-columns(4)
+
+
+
+
+

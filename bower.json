@@ -1,0 +1,25 @@
+{
+  "name": "customcontrols",
+  "version": "0.1.0",
+  "homepage": "https://github.com/spaetsch/customcontrols",
+  "authors": [
+    "Sarah Paetsch <spaetsch@gmail.com>"
+  ],
+  "description": "custom controls, jQuery, Sass, Bower",
+  "main": "index.html",
+  "keywords": [
+    "moo"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bourbon": "~4.2.3",
+    "neat": "~1.7.2"
+  }
+}

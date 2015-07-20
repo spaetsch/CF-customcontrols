@@ -1,16 +1,17 @@
-body
-  background-color: #E2F0D6
-  color: black
+*
+  box-sizing: border-box
 
-main
-  width: 75%
+body
+  background-color: $body-color
+  color: $body-textcolor
+  width: 85%
   margin: auto
 
 a
   text-decoration: none
-  color: green
+  color: $link-color
   &:visited
-    color: #1F4254
+    color: desaturate($link-color, 10%)
   &:hover
-    color: white
+    color: lighten($link-color, 25%)
 

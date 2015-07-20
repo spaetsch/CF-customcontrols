@@ -1,0 +1,33 @@
+.myheader
+  margin: .5em 0
+
+.mytitle
+  @include media($mobile)
+    font-size: 2.5em
+  @include media($tablet)
+    font-size: 4em
+  @include media($desktop)
+    font-size: 5em
+
+.mynav
+  @include media($mobile)
+    font-size: .75em
+  @include media($tablet)
+    font-size: 1.5em
+  a
+    padding: .25em .75em
+    margin-right: .25em
+    background-color: $navbtn-color
+    flex-grow: 1
+  a:last-child
+    margin-right: 0
+
+.mysidebox
+  margin: .25em
+  padding: 1em
+  line-height: 1.5em
+
+.myfooter
+  padding: 1em
+  margin-top: 1em
+  margin-bottom: 3em

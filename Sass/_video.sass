@@ -1,18 +1,42 @@
-video
-  width: 100%
+@import "video/index"
+
+.main__video-container
+  @include media($mobile)
+    @include span-columns(12)
+  @include media($tablet)
+    @include span-columns(9)
+  @extend .video__container
+  background-color: $video-containercolor
+  box-shadow: 0 0 5px black
+
+#video-controls
+  @extend .video-controls
+  background-color: $video-controlcolor
+
+.main__info-box
+  @extend .video__info
+  background-color: $video-infocolor
 
 input[type="range"]
   -webkit-appearance: none
+  @extend .slider-track
   background-color: $slider-trackcolor
-  width: 20em
-  height: 1em
 
 input[type="range"]::-webkit-slider-thumb
   -webkit-appearance: none
+  @extend .slider
   background-color: $slider-controlcolor
   opacity: 0.7
-  width: 1em
-  height: 2em
+
+.video-controls
+  @include outer-container
+
+.play-controls, .vol-controls, .screen-controls
+  @include media($mobile)
+    @include span-columns(12)
+  @include media($tablet)
+    @include span-columns(4)
+
 
 
 

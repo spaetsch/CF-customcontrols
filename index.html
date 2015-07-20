@@ -1,29 +1,92 @@
 <!doctype html>
-<html class="no-js" lang="" manifest="offline.appcache">
+<html class="no-js" lang="">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Dog</title>
+    <title>moopedia</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Bitter:400,700|Oxygen:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/application.css" media="screen" />
   </head>
   <body>
-    <main role="main">
-      <h1>Dog</h1>
-      <video id="video" controls="">
-        <source src="video/dog2.mp4" >
-      </video>
-      <!-- Video Controls -->
-      <div id="video-controls">
-        <button type="button"  id="play-pause" class="play video-btn">Play</button>
-        <input type="range" id="seek-bar" value="0">
-        <button type="button" class="video-btn" id="mute">Mute</button>
-        <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-        <button type="button" class="video-btn" id="full-screen">Full</button>
+    <header>
+      <div class="header__flex-container">
+        <div class="header__logo">
+          <a href="#">
+            <img src="img/scientific3.svg">
+          </a>
+        </div>
+        <div class="header__title">
+          <h1>moopedia</h1>
+        </div>
       </div>
+      <nav class="nav__flex-container">
+        <a href="#">About</a>
+        <a href="#">Link Two</a>
+        <a href="#">Link3</a>
+        <a href="#">Link4</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <main role="main">
+      <div class="main__video-container">
+        <h2 class="video__title">My dog is a silly gerbil</h2>
+        <video id="video" controls="" src="video/dog2.mp4"></video>
+        <!-- Video Controls -->
+        <div id="video-controls">
+          <div class="play-controls">
+            <button type="button"  id="play-pause" class="play video-btn">Play</button>
+            <input type="range" id="seek-bar" value="0">
+          </div>
+          <div class="vol-controls">
+            <button type="button" class="video-btn" id="mute">Mute</button>
+            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
+          </div>
+          <div class="screen-controls">
+            <button type="button" class="video-btn" id="full-screen">Full</button>
+          </div>
+        </div>
+        <div class="main__info-box">
+          Plastic engine cyber-media numinous pistol rebar camera bicycle garage lights franchise systema dissident Legba range-rover bomb. Man boy warehouse knife realism film pen Kowloon corporation paranoid dissident vehicle. Shoes rain receding drugs dolphin artisanal corporation 3D-printed jeans industrial grade dome tiger-team office stimulate fetishism futurity ablative. Vehicle digital construct market drone rifle range-rover nano-pistol otaku tank-traps lights jeans engine.
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sidebox">
+          <h3>Box 1 Title</h3>
+          Tower garage faded industrial grade market girl semiotics Kowloon nodality rain disposable.
+        </div>
+        <div class="sidebox">
+          <h3>Box 2 Title</h3>
+          Render-farm nodal point garage hacker bicycle decay RAF-space singularity corporation.
+        </div>
+        <div class="sidebox">
+          <h3>Box 3 Title</h3>
+          Otaku shanty town receding post-engine wonton soup face forwards boy into man faded fluidity courier boat computer.
+        </div>
+      </div>
+
     </main>
+
+    <footer>
+      <div class="footer__column">
+        This is the footer
+      </div>
+      <div class="footer__column">
+        <ul>
+          <li><a href="#">Link 1</a></li>
+          <li><a href="#">Link 2</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        Denim sprawl skyscraper physical-ware tanto network convenience store assault alcohol. Katana footage garage into paranoid dissident decay knife tower long-chain hydrocarbons.
+      </div>
+    </footer>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <script type="text/javascript" src="js/video.js"></script>
+    <script type="text/javascript" src="js/video.js"></script>
   </body>
 </html>
